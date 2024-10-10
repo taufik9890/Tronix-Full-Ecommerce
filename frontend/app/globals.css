@@ -1,0 +1,35 @@
+:root {
+  --red-color: #f46b5b;
+  --black-color: #383838;
+  --icon-color: #a7a7a7;
+  --border-color: #efeff0;
+  --white-color: #fff;
+  --searchbox-color: #efeff0;
+  --bg-color: #c4c4c4;
+  --tag-color: #bb6bd9;
+  --companyname-color: #999999;
+  --tag2-color: #2d9cdb;
+  --footer-bg: #faf3f2;
+  --footericon-color: rgba(244, 106, 91, 0.534);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}

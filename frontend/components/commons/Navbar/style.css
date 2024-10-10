@@ -1,0 +1,161 @@
+/* ======================header part end=================== */
+.home-top {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 18px;
+}
+
+.top-icon {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  font-size: 20px;
+  color: var(--icon-color);
+  width: 20%;
+}
+
+.top-right {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 32px;
+}
+
+.right-element {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-icon {
+  font-size: 20px;
+  color: var(--red-color);
+}
+
+.right-element .right-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0 !important;
+}
+
+.menubar {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prjt-name {
+  width: 10%;
+  cursor: pointer;
+}
+
+.prjt-name h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--red-color);
+}
+
+.all-menu {
+  width: 50%;
+}
+
+.menu-list a {
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.list-type {
+  width: 30%;
+  transition: 0.4s all linear;
+  cursor: pointer;
+}
+
+.list-type:hover {
+  width: 30%;
+  color: var(--red-color);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--red-color) !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--red-color) !important;
+}
+
+.search-bar {
+  width: 30%;
+}
+
+.search-box {
+  display: flex;
+  width: 380px;
+  background: var(--searchbox-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.search-box input {
+  background: transparent;
+  outline: none;
+  padding: 12px 24px;
+  border: none;
+  width: 90%;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--red-color);
+  width: 10%;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.shopping-element {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 32px;
+}
+
+.shopping-icon {
+  position: relative;
+  font-size: 30px;
+}
+
+.number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: var(--red-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number p {
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+/* ======================header part end=================== */

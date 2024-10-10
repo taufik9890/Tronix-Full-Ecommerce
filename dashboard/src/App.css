@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.resend-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-modal-footer .ant-btn {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-42nv3w).ant-btn-primary:last-child {
+  margin-left: 20px;
+}
